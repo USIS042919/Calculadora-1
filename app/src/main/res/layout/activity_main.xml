@@ -4,139 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/txtnum2"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    >
+    <Button
+        android:id="@+id/bt3conversiones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="120dp"
-        android:ems="10"
-        android:inputType="numberDecimal" />
-
-    <TextView
-        android:id="@+id/lblnum1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:text="Num 1:" />
-
-    <TextView
-        android:id="@+id/lblnum2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="120dp"
-        android:text="Num 2:" />
-
-    <EditText
-        android:id="@+id/txtnum1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="numberDecimal" />
+        android:text="@string/conversores"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="250dp"/>
 
     <Button
-        android:id="@+id/btnProcesar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="280dp"
-        android:onClick="procesar"
-        android:text="Calcular" />
-
-    <RadioGroup
-        android:id="@+id/optOperaciones"
-        android:layout_width="145dp"
-        android:layout_height="263dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="200dp">
-
-        <RadioButton
-            android:id="@+id/optSuma"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="suma"
-            android:textColor="#9C27B0" />
-
-
-        <RadioButton
-            android:id="@+id/optResta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="resta"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optMultiplicar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Multiplicacion"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optDivision"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Division"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optExponenciacion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Exponenciacion"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optPorcentaje"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Porcentaje"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optModulo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Modulo"
-            android:textColor="#9C27B0" />
-
-        <RadioButton
-            android:id="@+id/optFactoreo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Factoreo"
-            android:textColor="#9C27B0" />
-    </RadioGroup>
-
-    <Spinner
-        android:id="@+id/cboOperaciones"
+        android:id="@+id/bt4conversiones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="180dp"
-        android:layout_marginTop="200dp"
-        android:entries="@array/operaciones" />
-
-    <TextView
-        android:id="@+id/lblresp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="228dp"
-        android:layout_marginTop="240dp"
-        android:text="Procesar" />
-
+       android:text="@string/conversor"
+        android:layout_marginTop="300dp"
+        />
 
 </RelativeLayout>

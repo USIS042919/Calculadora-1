@@ -1,17 +1,96 @@
 <resources>
-    <string name="app_name">Calculadora</string>
-    <string name="num1"> Numero 1</string>
-    <string name="num2"> Numero 2</string>
-    <string name="boton"> Procesar </string>
-    <string-array name="operaciones">
-        <item>Seleccione un elemento</item>
-        <item>Suma</item>
-        <item>Resta</item>
-        <item>Multiplicacion</item>
-        <item>Division</item>
-        <item>Porcentaje</item>
-        <item>Modulo</item>
-        <item>Exponenciacion</item>
-        <item>Factoreo</item>
+    <string name="app_name">Convers</string>
+    <string name="conversores">MONEDA, LONGITUD, TIEMPO</string>
+    <string name="conversor">MASA, ALMACENAMIENTO, VOLUMEN, TRANSFERENCIA</string>
+
+    // Todo esto es lo que declaramos, para Luego llamarlo donde lo necesitemos, ya sea como nombres de botones, o nombres principals, en Spinner, etc....
+
+    <string-array name="Monedas">
+        <item>Colón Salvadoreño</item>
+        <item>Dólar </item>
+        <item>Euro</item>
+        <item>Quetzal </item>
+        <item>Lempira </item>
+        <item>Cordoba</item>
+        <item>Peso Mexicano</item>
+
     </string-array>
+
+    <string-array name="Longitud">
+        <item>Metro</item>
+        <item>Kilometro</item>
+        <item>Yarda</item>
+        <item>Pie</item>
+        <item>Pulgada</item>
+        <item>Centimetro</item>
+        <item>Milímetro</item>
+        <item>Milla</item>
+
+    </string-array>
+
+    <string-array name="Tiempo">
+        <item>Segundo</item>
+        <item>Minuto</item>
+        <item>Hora</item>
+        <item>Día</item>
+        <item>Semana</item>
+        <item>Mes</item>
+        <item>Año</item>
+
+    </string-array>
+
+    <string-array name="Masa">
+        <item>Libra</item>
+        <item>Tonelada</item>
+        <item>Kilogramo</item>
+        <item>Gramo</item>
+        <item>Miligramo</item>
+        <item>Microgramo</item>
+        <item>Onza</item>
+    </string-array>
+
+
+    <string-array name="Almacenamiento">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Petabit</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Kilobit</item>
+        <item>Megabit</item>
+        <item>Gigabit</item>
+        <item>Terabit</item>
+
+    </string-array>
+
+    <string-array name="Volumen">
+        <item>Galón estadounidense</item>
+        <item>Metro Cúbico</item>
+        <item>Litro</item>
+        <item>Mililitro</item>
+        <item>Pie cúbico</item>
+        <item>Pulgada cúbica</item>
+        <item>Cuarto estadounidense</item>
+        <item>Pinta estadounidense</item>
+        <item>Taza americana</item>
+        <item>Onza líquida estadounidense</item>
+        <item>Cucharada estadounidense</item>
+        <item>Cucharadita estadounidense</item>
+    </string-array>
+
+    <string-array name="Transferenciadedatos">
+        <item>Bit por segundo</item>
+        <item>Terabit por segundo</item>
+        <item>Terabyte por segundo</item>
+        <item>Megabit por segundo</item>
+        <item>Megabyte por segundo</item>
+        <item>Kilobit por segundo</item>
+        <item>Kilobyte por segundo</item>
+        <item>Gigabit por segundo</item>
+        <item>Gigabyte por segundo</item>
+
+    </string-array>
+
 </resources>
