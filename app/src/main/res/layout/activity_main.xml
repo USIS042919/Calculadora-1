@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:background="@color/colorPrimary"
     >
-    //creacion de diseño
+    //creacion
     <Button
         android:id="@+id/bt3conversiones"
         android:layout_width="wrap_content"
@@ -22,6 +22,15 @@
         android:layout_height="wrap_content"
        android:text="@string/conversor"
         android:layout_marginTop="300dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pensando"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="400dp"
         />
 
 </RelativeLayout>
